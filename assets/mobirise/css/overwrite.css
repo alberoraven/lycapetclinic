@@ -1,0 +1,99 @@
+.mbr-navbar__container .mbr-navbar__column--s {
+    width: 30%;
+}
+.mbr-box__magnet .col-sm-6 {
+	width: 100%;
+}
+.mbr-hero__text{
+  font-size: 45px !important;
+}
+.mbr-hero__subtext {
+    font-size: 18px !important;
+        text-shadow: 0.3px 0.3px #333;
+  }
+.mbr-hero {
+  color: #fff !important;
+  background-color: rgba(0,0,0,0.5);
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.mbr-navbar--transparent .mbr-navbar__section {
+  background: rgba(0,0,0, 0.5);
+  border-bottom: 1px solid #fff;
+}
+.mbr-reviews__text::before { 
+	bottom: none !important;
+	top:-8px !important;
+	transform: rotate(225deg) !important;
+}
+
+.mbr-reviews__item {
+    margin-top: 0 !important;
+}
+.mbr-reviews__author--short {
+    margin-bottom: 20px;
+    padding-left: 32px;
+}
+.mbr-section__container--std-padding {
+    padding: 45px 0;
+}
+.achieves
+{
+	padding-bottom: 30px;
+}
+.achieves .mbr-reviews__author--short {
+    padding-left: 0px;
+}
+
+.mbr-section__container h2, .consultation h3 {
+	text-align: left !important;
+	letter-spacing: 0 !important;
+}
+.services-h3 {
+  padding:40px 0 40px 20px;
+}
+.services-list {
+  background-color: #00A885;
+}
+.services-list li, .services-list h2 {
+  color: #fff;
+}
+.services-list > div{
+ padding: 20px 0;
+}
+.mbr-social-icons {
+  padding: 0 !important;
+}
+.follow-us h3 {
+  letter-spacing: 3px !important;
+}
+.consultation h3{
+  margin-top: 0 !important;
+}
+.mbr-figure__map--short {
+    height: 350px !important;
+}
+#achievements .mbr-header__text ,#achievements .mbr-article p, .mbr-contacts{
+  color: #fff;
+}
+.mbr-box__magnet {
+ text-align : left !important;
+}
+@media screen and (max-width: 480px) {
+  .mbr-parallax-background div div{
+    background-image: none !important;
+  }
+  #home h1{
+    font-size: 20px !important;
+    letter-spacing: 0;
+  }
+  .mbr-social-icons {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) { 
+    .mbr-navbar__container .mbr-navbar__column--s {
+    width: 90%;
+}
+}
